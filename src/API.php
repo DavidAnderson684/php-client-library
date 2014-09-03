@@ -654,7 +654,7 @@ class API
      *
      * @return array  contains headers to use for HTTP requests
      */
-    private function getHeaders($method)
+    public function getHeaders($method)
     {
         $headers = array();
 
